@@ -11,6 +11,10 @@
 -  Development - npx cypress open (./node_modules/.bin/cypress run)
 -   Execution - npx cypress run (./node_modules/.bin/cypress run)
 
+## Project 
+- e2e/pages - 
+- e2e/tests - 
+
 ## Placeholders:
 - baseUrl: 'https://www.nba.com/'
 - SImple page object created - page: 
