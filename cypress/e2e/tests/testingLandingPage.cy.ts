@@ -17,9 +17,10 @@ beforeEach(() => {
     landingPage.visit();
 })
 
-describe('Placeholder Tests', () => {
+describe('Testing Landing page displayed elements', () => {
     
-    it.skip('Placeholder first test', () => {
+    it('Is NBA logo displayed', () => {
+        cy.get('.ot-sdk-container > .ot-sdk-row').click();
+        landingPage.isLogoVisible ();
     })  
-
 })

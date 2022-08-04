@@ -14,6 +14,8 @@
 ## Project 
 - e2e/pages - 
 - e2e/tests - specPattern: '**/tests/*.cy.ts'
+## plugins added
+- https://www.npmjs.com/package/cypress-iframe (npm install -D cypress-iframe)
 
 ## Placeholders:
 - baseUrl: 'https://www.nba.com/'

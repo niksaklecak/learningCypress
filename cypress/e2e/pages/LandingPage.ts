@@ -11,6 +11,10 @@ export class LandingPage {
     fillInData(data: string) {
         this.elements.placeholderGetElement().type(data);
     }
+
+    isLogoVisible() {
+        cy.get('[data-id="nba:navigation:home:logo"]').should('be.visible')
+    }
 }
 
 
