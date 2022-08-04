@@ -1,7 +1,7 @@
 export class LandingPage {
 
     private elements = {
-        placeholderGetElement: () => cy.get('')
+        placeholderGetElement: () => cy.get('data-id = nba:navigation:home:logo')
     }
 
     visit() {

@@ -4,6 +4,6 @@ export default defineConfig({
   e2e: {
     // modify config values
     specPattern: '**/tests/*.cy.ts',
-    baseUrl: 'https://www.nba.com/'
+    baseUrl: 'http://www.nba.com/'
   }
 })
