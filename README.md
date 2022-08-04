@@ -13,7 +13,7 @@
 
 ## Project 
 - e2e/pages - 
-- e2e/tests - 
+- e2e/tests - specPattern: '**/tests/*.cy.ts'
 
 ## Placeholders:
 - baseUrl: 'https://www.nba.com/'
