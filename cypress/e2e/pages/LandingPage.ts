@@ -1,19 +1,28 @@
 export class LandingPage {
 
     private elements = {
-        placeholderGetElement: () => cy.get('data-id = nba:navigation:home:logo')
+        getLogo: () => cy.get('.tools_logo > a > img'),
+        banner: () => cy.get('.close_banner')
     }
 
     visit() {
         cy.visit('/');
     }
 
+    closePopUp () {
+        cy.get('#exit_popup_close').click();
+    }
+
+
     fillInData(data: string) {
-        this.elements.placeholderGetElement().type(data);
+        // this.elements.placeholderGetElement().type(data);
     }
 
     isLogoVisible() {
-        cy.get('[data-id="nba:navigation:home:logo"]').should('be.visible')
+        this.elements.getLogo().should("be.visible");
+    }
+    closeBanner () {
+        this.elements.banner().click();
     }
 }
 

@@ -15,11 +15,11 @@
 - e2e/pages - 
 - e2e/tests - specPattern: '**/tests/*.cy.ts'
 ## plugins added
-- https://www.npmjs.com/package/cypress-iframe (npm install -D cypress-iframe)
+- https://www.npmjs.com/package/cypress-iframe (npm install -D cypress-iframe) - no working 
 
 ## Placeholders:
-- baseUrl: 'https://www.nba.com/'
-- SImple page object created - page: 
+- baseUrl: 'https://www.lambdatest.com/'
+- Simple page object created - page: 
 - Simple test - 
 
 ## VS configuration: 
@@ -27,3 +27,7 @@
 
 ## Usefull Docs
 - https://www.markdownguide.org/basic-syntax
+
+## Learning - app under test https://www.lambdatest.com/
+- Creating simple POM 
+- Testing fetching locators 

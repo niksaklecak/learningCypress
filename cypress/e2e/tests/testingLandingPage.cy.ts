@@ -1,5 +1,4 @@
 /// <reference types='cypress' />
-
 import {LandingPage} from '../pages/LandingPage';
 
 
@@ -15,12 +14,17 @@ before(() => {
 beforeEach(() => {
     cy.log('I run before every test in every spec file!!!!!!');
     landingPage.visit();
+    // landingPage.closePopUp();
 })
 
 describe('Testing Landing page displayed elements', () => {
     
-    it('Is NBA logo displayed', () => {
-        cy.get('.ot-sdk-container > .ot-sdk-row').click();
-        landingPage.isLogoVisible ();
-    })  
+    it('Is logo displayed', () => {
+        
+        landingPage.isLogoVisible()
+        cy.pause();
+        landingPage.closeBanner();
+        
+    }) 
+    
 })
