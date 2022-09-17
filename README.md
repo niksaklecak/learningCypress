@@ -5,11 +5,12 @@
 
 ## Dependecies 
 - Version of Cypress is 10.4.0 **bold text**
+- install with npm install cypress 
 -  Version of TS is 4.7.4 **bold text**
 
 ## How to start using it 
 -  Development - npx cypress open (./node_modules/.bin/cypress run)
--   Execution - npx cypress run (./node_modules/.bin/cypress run)
+-  Execution - npx cypress run (./node_modules/.bin/cypress run)
 
 ## Project 
 - e2e/pages - 

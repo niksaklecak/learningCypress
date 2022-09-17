@@ -14,17 +14,13 @@ before(() => {
 beforeEach(() => {
     cy.log('I run before every test in every spec file!!!!!!');
     landingPage.visit();
-    // landingPage.closePopUp();
 })
 
-describe('Testing Landing page displayed elements', () => {
+describe('Testing Landing page logo present', () => {
     
-    it('Is logo displayed', () => {
+    it('Logo should be displayed', () => {
         
-        landingPage.isLogoVisible()
-        cy.pause();
-        landingPage.closeBanner();
-        
+        landingPage.logoIsVisible();
     }) 
     
 })

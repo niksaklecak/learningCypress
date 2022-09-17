@@ -1,28 +1,18 @@
 export class LandingPage {
 
     private elements = {
-        getLogo: () => cy.get('.tools_logo > a > img'),
-        banner: () => cy.get('.close_banner')
-    }
+        getLogo: () => cy.get('[alt="Cypress Logo"]')    }
 
     visit() {
         cy.visit('/');
     }
 
-    closePopUp () {
-        cy.get('#exit_popup_close').click();
-    }
-
-
     fillInData(data: string) {
         // this.elements.placeholderGetElement().type(data);
     }
 
-    isLogoVisible() {
+    logoIsVisible() {
         this.elements.getLogo().should("be.visible");
-    }
-    closeBanner () {
-        this.elements.banner().click();
     }
 }
 
