@@ -29,6 +29,6 @@
 ## Usefull Docs
 - https://www.markdownguide.org/basic-syntax
 
-## Learning - app under test https://www.lambdatest.com/
+## Learning - app under test https://learn.cypress.io/
 - Creating simple POM 
 - Testing fetching locators 
