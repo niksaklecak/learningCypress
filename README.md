@@ -19,7 +19,7 @@
 - https://www.npmjs.com/package/cypress-iframe (npm install -D cypress-iframe) - no working 
 
 ## Placeholders:
-- baseUrl: 'https://www.lambdatest.com/'
+- baseUrl: 'https://learn.cypress.io/'
 - Simple page object created - page: 
 - Simple test - 
 
