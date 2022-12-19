@@ -1,8 +1,8 @@
 /// <reference types='cypress' />
-import {LandingPage} from '../pages/LandingPage';
+import {ImdbPage} from '../pages/ImdbPage';
 
 
-const landingPage = new LandingPage();
+const imdbPage = new ImdbPage();
 let testData
 
 before(() => {
@@ -13,14 +13,16 @@ before(() => {
 
 beforeEach(() => {
     cy.log('I run before every test in every spec file!!!!!!');
-    landingPage.visit();
+    imdbPage.visit();
 })
 
 describe('Testing session cookies', () => {
     
     it('Login and save session cookie', () => {
         
-        landingPage.logoIsVisible();
+        cy.auth(username, password);
+        cy.visit('/account')
+        imdbPage.logoIsVisible();
     }) 
     
 })

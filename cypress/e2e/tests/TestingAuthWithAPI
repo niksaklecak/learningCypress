@@ -1,0 +1,20 @@
+/// <reference types='cypress' />
+
+
+
+describe('Auth to public API, get the required info and validate the samo on UI', () => {
+    
+    it('Auth to public API', () => {
+        
+    }) 
+
+    it('GET the info from the API', () => {
+        
+    });
+
+    it('Get the info from UI and validate', () => {
+        
+    });
+    
+})
+
